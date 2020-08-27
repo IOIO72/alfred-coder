@@ -1,0 +1,39 @@
+{
+  "name": "alfred-coder",
+  "version": "0.1.0",
+  "description": "Encode and decode given input to diverse conversions",
+  "license": "MIT",
+  "repository": "https://github.com/IOIO72/alfred-coder",
+  "author": {
+    "name": "Tamio Honma",
+    "email": "tamio@honma.de",
+    "url": "https://honma.de"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.10.0",
+    "he": "^1.2.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.4.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
