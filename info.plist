@@ -96,7 +96,7 @@
 				<key>scriptfile</key>
 				<string>index.js</string>
 				<key>subtext</key>
-				<string>Type ⌘ in result to decode</string>
+				<string>Press ⌘ on selected result item to decode</string>
 				<key>title</key>
 				<string>Coder: Encode</string>
 				<key>type</key>
