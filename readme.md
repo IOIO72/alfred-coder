@@ -27,6 +27,10 @@ By default, Coder encodes the query through the following coders:
 
 To decode the selected result press ⌘.
 
+![Alfred Coder Workflow](alfred-coder-results.png)
+
+[YouTube demo video](https://youtu.be/WxjyAqH4vJY)
+
 
 ## License
 
