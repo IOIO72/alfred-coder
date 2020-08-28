@@ -4,10 +4,21 @@
 <dict>
 	<key>bundleid</key>
 	<string>de.honma.coder</string>
-	<key>category</key>
-	<string>Uncategorised</string>
 	<key>connections</key>
 	<dict>
+		<key>4697E209-69A2-4C45-BF87-FE7217B2D0B0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AC6FA451-5F2A-4C6C-9417-FBE812210F29</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>AC6FA451-5F2A-4C6C-9417-FBE812210F29</key>
 		<array>
 			<dict>
@@ -45,6 +56,37 @@
 	<string>coder</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>4697E209-69A2-4C45-BF87-FE7217B2D0B0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -153,30 +195,37 @@ MIT License © Tamio Honma
 https://www.honma.de</string>
 	<key>uidata</key>
 	<dict>
+		<key>4697E209-69A2-4C45-BF87-FE7217B2D0B0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>35</integer>
+		</dict>
 		<key>62A9A43F-57E4-44EC-83D2-B8337AC4E5B8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>445</integer>
+			<integer>655</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>35</integer>
 		</dict>
 		<key>AC6FA451-5F2A-4C6C-9417-FBE812210F29</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>210</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>35</integer>
 		</dict>
 		<key>B34A46C7-5F3D-4532-A951-4C9C025543B9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>260</integer>
+			<integer>475</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>35</integer>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>0.1</string>
+	<string>0.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/IOIO72/alfred-coder</string>
 </dict>

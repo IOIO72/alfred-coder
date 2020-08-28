@@ -2,6 +2,8 @@
 const alfy = require('alfy');
 const he = require('he');
 
+const hint = '[⌘ to decode]';
+
 const uriCoder = (input, decode = false) => {
 	let result = input;
 	try {
@@ -48,11 +50,11 @@ const htmlEntitiesCoder = (input, decode = false) => {
 
 const setCoder = ({title, input, callback}) => ({
 	title,
-	subtitle: `Encode: ${callback(input)}`,
+	subtitle: `${hint} Encode: ${callback(input)}`,
 	arg: callback(input),
 	mods: {
 		cmd: {
-			subtitle: `Decode: ${callback(input, true)}`,
+			subtitle: `${hint} Decode: ${callback(input, true)}`,
 			arg: callback(input, true)
 		}
 	}

@@ -1,6 +1,6 @@
 {
   "name": "alfred-coder",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "Encode and decode given input to diverse conversions",
   "license": "MIT",
   "repository": "https://github.com/IOIO72/alfred-coder",

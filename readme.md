@@ -14,7 +14,9 @@ $ npm install --global alfred-coder
 
 ## Usage
 
-In Alfred, type `coder`, <kbd>Enter</kbd>, and your query.
+In Alfred, type `coder`, <kbd>Enter</kbd> and your query.
+
+Additionally, you may configure an hotkey for Coder in Alfred, which gives you the ability to select a text in any app, hit your hotkey to pass the selected text directly to Coder.
 
 By default, Coder encodes the query through the following coders:
 
